@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {Component} from '@angular/core';
+import {MeuBotaoComponent} from './meu-botao/meu-botao.component';
+import {ButtonFlatComponent} from './button-flat/button-flat.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [MeuBotaoComponent, ButtonFlatComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'meu-primeiro-projeto';
 }
