@@ -1,11 +1,9 @@
 import {Component} from '@angular/core';
-import {MeuBotaoComponent} from './meu-botao/meu-botao.component';
-import {ButtonFlatComponent} from './button-flat/button-flat.component';
-import {EventBindingComponent} from './event-binding/event-binding.component';
+import {ProgressBarComponent} from './components/style-binding/progress-bar/progress-bar.component';
 
 @Component({
   selector: 'app-root',
-  imports: [MeuBotaoComponent, ButtonFlatComponent, EventBindingComponent],
+  imports: [ProgressBarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
